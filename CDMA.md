@@ -4,7 +4,7 @@ flowchart TB
     classDef embedproc fill:#e8f0fe,stroke:#2b5dac,stroke-width:1px;
     classDef extractproc fill:#eef6f0,stroke:#3a7d44,stroke-width:1px;
     classDef decision fill:#fff3cd,stroke:#d39e00,stroke-width:1px;
-    classDef note fill:#f8f9fa,stroke:#6c757d,stroke-width:1px,stroke-dasharray: 5 5,font-size:10pt;
+    classDef note fill:#f8f9fa,stroke:#6c757d,stroke-width:1px,stroke-dasharray:"5 5";
 
     %% -------------------------- 水印嵌入阶段 --------------------------
     subgraph 第一阶段:水印编码与CDMA扩频嵌入
